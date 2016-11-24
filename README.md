@@ -26,3 +26,18 @@ Perangkat yang dibutuhkan adalah sebagai berikut:
 
 Library yang akan digunakan di dalam pertemuan ini adalah MFRC522 
 (https://github.com/miguelbalboa/rfid)
+
+### Cara Pemasangan
+
+MFRC522 dipasang ke Arduino Uno menggunakan kabel jumper dengan mapping 
+pin sebagai berikut:
+
+* Pin 3.3V / VCC ke pin 3.3V di Arduino (sebelah kiri, bagian Power)
+* Pin RST ke pin digital nomor 9 (sebelah kanan, bagian atas, kedua dari 
+bawah)
+* Pin GND ke pin GND di Arduino (sebelah kiri, bagian Power)
+* Pin IRQ tidak dihubungkan
+* Pin MISO ke pin digital nomor 12 (3 pin di atas pin RST)
+* Pin MOSI ke pin digital nomor 11 (2 pin di atas pin RST)
+* Pin SCK ke pin digital nomor 13 (4 pin di atas pin RST)
+* Pin SDA ke pin digital nomor 10 (1 pin di atas pin RST)
